@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogago</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+    <div>
+       
+        <div class = 'nav-container'>
+            <!--Logo-->
+           <div class="logo-container">
+            <h1 class="logo">go<span class="logo-span">g</span>a<span class="logo-span">g</span>o</h1>
+            <p class="para">HOLIDAYS</p>
+           </div>
+           <!----Navbar-->
+           <div class = 'nav-items'>
+               <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>         
+                <a href="#contact">ContactUs</a>
+               </nav>
+           </div>
+        </div>
+        <!--Home Section-->
+        <div class = 'home-container' id="home">
+           <p class="home-para1">A Promise of a memorable travel experience</p>
+           <h1 class="home-head">Does your Holiday need to be<br/>customized?</h1>
+           <p class = 'home-para2'>Yes! We believe that every holiday needs to be <br/> customized as they are unique. Explore our customized <br/>holidays for a memorable holiday experience.</p>
+           <button id='btn' onclick="window.location.href='#'" >Book Now!</button>
+        </div>
+
+        <!----About Section-->
+        <div class="about-container" id = 'about'>
+          <h1>AboutUs</h1>
+          <p>Shikhar Travels, a complete Destination Management Company and  adventure tour specialist,  provide comprehensive travel  packages for  adventure, leisure, group,  corporate  as well as individual travellers. Ever since its inception in 1979, the company has been growing steadily and in the process innovating its product range, launching new ideas and rediscovering new destinations to increase its service range. </p>
+          <p>At Shikhar we are adaptable to our client’s ideas and specific requirements which has  helped us to become  one of the most sought after  travel companies in the country, providing excellent support to individual and group travellers, catering to their specific requirements.</p>
+          <p>Besides  domestic travellers, we also cater to different markets from North America to East-Europe, and  from  Asia Pacific to Australia .  We work closely with our partner companies across the world to  a mutually beneficial business association with them and assure our best travel solutions and experience to their clients. </p>
+        </div>
+         
+        <!--Services section-->
+        <div class="service-continer"  id = 'services'>
+            <div class="services-section">
+                <h1>Trending Indian Destinations </h1>
+                <p>India is a country with diversified travel destinations. We have mastered various holiday options to make our customer experiences more memorable.</p>
+            </div>
+               <!--Card Section-->
+            
+               <div class="slider-container">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card1" style="background-image: url('./assets/goa.webp');">
+                            <h2>Goa</h2>
+                            <p>LGoa Water Sports Tour, a package of 3 nights and 4 days, offers you a chance to indulge in water sports at some of the very well-known beaches of North Goa. You also indulge in fun activities. During the tour, you visit the well-known churches of Goa.  </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card2" style="background-image: url('./assets/andaman.webp');">
+                            <h2>Andaman</h2>
+                            <p>With white sandy beaches, turquoise waters and beautiful sunset views, Andamans is a great destination for a perfect laid-back vacation. These Andaman luxury packages for 4 nights 5 days lets you explore the beauty of the island and also visit some of the best attractions on the Island.                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card3" style="background-image: url('./assets/mysore.webp');">
+                            <h2>Mysore</h2>
+                            <p>With spectacularsnowy peaks and plunging river valleys, beautiful Himachal isIndia’s outdoor adventure playground. From trekking and climbing to rafting, paragliding and skiing, if it can be done in the mountains, it can be done here</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card3" style="background-image: url('./assets/manali.webp');">
+                            <h2>Manali</h2>
+                            <p>Strung out along a ridge with steep forested hillsides falling away in all directions, the Himachal capital is one of India's most popular hill resorts, buzzing with a happy flow of heat-escaping Indian vacationers. Traffic is banned from the central part of town, so walking is pleasant</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card3" style="background-image: url('./assets/rajasthan.webp');">
+                            <h2>Rajasthan</h2>
+                            <p>Rajasthan has a colorful and lively vibe that revolves around the shades of royal Rajputana culture and heritage. Literally meaning the ‘Land of the Kings’, it offers a perfect blend of mystical palaces, majestic lakes, charming                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card3" style="background-image: url('./assets/srinagar.webp');">
+                            <h2>Srinaga</h2>
+                            <p>
+                                Ringed by an arc of green mountains, Srinagar's greatest drawcard is mesmerizingly placid Dal Lake, on which a bright array of stationary houseboats and shikara (gondola-like boats) add a splash of color and a unique opportunity for romantic chill-outs. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="prev-btn" onclick="prevCard()">&lt;</button>
+                <button class="next-btn" onclick="nextCard()">&gt;</button>
+            </div>
+            
+        </div>
+
+                <!--Services section-->
+                <div class="service-continer" id = 'contact'>
+                    <div class="services-section">
+                        <h1>Enthralling International Destinations </h1>
+                        <p>Our Global Expertise in Holidaying can make your travel experience unique and enthralling. <br/>Chose to Travel with us to experience the difference.                        </p>
+                    </div>
+                       <!--Card Section-->
+                    
+                       <div class="slider-container">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="card1" style="background-image: url('./assets/srilaka.webp');">
+                                    <h2> Srilanka</h2>
+                                    <p>Endless beaches, timeless ruins, welcoming people, oodles of elephants, rolling surf, cheap prices, fun trains, famous tea and flavorful food make Sri Lanka irresistible.                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card2" style="background-image: url('./assets/bali.webp');">
+                                    <h2>Bali</h2>
+                                    <p>The mere mention of Bali evokes thoughts of a paradise. It's more than a place; it's a mood, an aspiration, a tropical state of mind.                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card3" style="background-image: url('./assets/singapoor.webp');">
+                                    <h2>Singapore </h2>
+                                    <p>With spectacularsnowy peaks and plunging river valleys, beautiful Himachal isIndia’s outdoor adventure playground. From trekking and climbing to rafting, paragliding and skiing, if it can be done in the mountains, it can be done here</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card3" style="background-image: url('./assets/bankok.webp');">
+                                    <h2>Bangkok </h2>
+                                    <p>Gleaming temples and golden Buddhas frame the landscapes in Thailand, serving as a stunning backdrop for tours of Bangkok noodle shacks and adventures along the luxurious coastline.                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="card">
+                                <div class="card3" style="background-image: url('./assets/pattaya.webp');">
+                                    <h2>Pattaya</h2>
+                                    <p>Even if you know exactly what to expect of Bangkok and Pattaya, it still comes as an eye-popping sensory explosion. Multicultural, hyper-touristy Pattaya (เมืองพัทยา) boasts some excellent and good value places to stay and eat, and the area is also a family-friendly resort coast.  </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card3" style="background-image: url('./assets/indonesa.webp');">
+                                    <h2>Indonesia</h2>
+                                    <p>Whether you like to surf, practice yoga, trek on volcanoes, dive pristine reefs or go white-water rafting, Bali offers all sorts of wild and fascinating experiences that will push back your travel boundaries.</p>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <button class="prev-btn" onclick="prevCard1()">&lt;</button>
+                        <button class="next-btn" onclick="nextCard1()">&gt;</button>
+                    </div>
+                    
+                </div>
+
+
+            <!--- Testimonials-->
+            <div class="testimonials-container">
+                <div class = 'testmonials'>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+                <div class = 'testmonials1'>
+                    <ul>
+                        <h3>India</h3>
+                        <li>Goa</li>
+                        <li>Andaman</li>
+                        <li>Mysore</li>
+                        <li>Manali</li>
+                        <li>Srinager</li>
+                        <li>Rajasthan</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class = 'testmonials2'>
+                        <h3>International</h3>
+                        <li>Srilanka</li>
+                        <li>Dubhai</li>
+                        <li>Singapore</li>
+                        <li>Bali</li>
+                        <li>Indonesia</li>
+                        <li>Bankok</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="contactus">
+                    <h1>ContactUs</h1>
+                    <label>Email</label>
+                    <input name = 'email' type = 'text'/>
+                    <h2>gogago@email.com</h2>
+                </div>
+
+                <div class="icons">
+                    <a href="https://www.instagram.com/your-instagram-page" target="_blank" style = "color: black;">
+                      <i class="fab fa-instagram" style="font-size: 30px;"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/your-facebook-page" target="_blank" style = "color: black;">
+                        <i class="fab fa-facebook" style="font-size: 30px;"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/your-youtube-channel" target="_blank" style = "color: black;">
+                        <i class="fab fa-youtube social-icon" style="font-size: 30px;"></i>
+                    </a>
+                    
+                    <a href="mailto:youremail@example.com" style = "color: black;">
+                        <i class="fas fa-envelope social-icon" style="font-size: 30px;"></i>
+                    </a>
+                    
+
+                </div>
+            </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

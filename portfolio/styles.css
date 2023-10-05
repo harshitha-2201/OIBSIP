@@ -1,0 +1,219 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up custom CSS variables */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #2c3e50;
+    --text-color: #333;
+    --font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    font-family: var(--font-family);
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    color: var(--text-color);
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Header styles */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(114, 90, 58);
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('./portfolio1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #000000d8;
+    
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About section styles */
+.about {
+  background-color: #000000;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+.about-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Skills section styles */
+.skills {
+    background-color: #000000;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    display: flex ;
+    margin : 0 5% 0 5%;
+}
+
+.skill {
+   background-color:antiquewhite;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Projects section styles */
+.projects {
+    background-color: #000000;
+    color: #fff;
+    padding: 60px 0;
+    padding-left: 10%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style individual cards */
+.card {
+    width: 30%; /* Adjust the width as needed */
+    background-color:antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #000000;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 10px; /* Add margin between cards */
+}
+
+/* Style images within the cards */
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style headings */
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+.card p {
+    font-size: 16px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #010a2c;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+

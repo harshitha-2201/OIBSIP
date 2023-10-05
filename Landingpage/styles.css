@@ -1,0 +1,225 @@
+/* Style the outer container */
+.nav-container {
+    background-color: #256f6f;
+    max-height: 100%;
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the logo container */
+.logo-container {
+    display: flex; /* Make the logo and tagline display in a row */
+    align-items: center; /* Vertically center align the content */
+    padding-left: 5%;
+}
+
+.logo-span{
+    color: #33ffff;
+}
+.logo{
+    color: rgb(120, 238, 9);
+}
+.logo-container h1 {
+    font-size: 34px;
+    margin: 0;
+    font-family:   'Lato', sans-serif;
+}
+
+.para {
+    font-size: 12px; 
+    margin: 0; 
+    opacity: 0.3; 
+    display: flex;
+    align-self: end;
+    font-family: monospace;
+}
+
+/* Style the navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff; 
+    margin-right: 20px;
+    font-size: 16p;
+    padding-right: 0%;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    color: #ff5733; 
+}
+
+/* Home Page */
+.home-container{
+    background-image: url('./assets/home.webp'); 
+    color: #fff;
+    padding: 13%;
+    margin: 2px;
+
+}
+.home-para1{
+    font-family: cursive;
+
+}
+.home-head{
+    font-weight: bold ;
+    font-style: italic;
+
+}
+
+#btn{
+    background-color: rgb(6, 79, 10) ;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid  none;
+    border-radius: 1rem;
+}
+.about-container{
+    border: 1Px solid;
+    border-radius: 2rem;
+    background-color:#177e9b;
+    padding: 5% ;
+    margin: 2%;
+    color: white;
+}
+
+
+/* ----service section---*/
+
+.service-continer{
+    padding: 1%;
+    margin: 2%;
+    
+}
+/* card section ------*/
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%; /* Adjust the width based on the number of cards */
+    --card-translate-x: 0;
+
+}
+
+.card {
+    flex: 0 0 33.33%; /* Adjust the width based on the number of cards */
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transform: translateX(var(--card-translate-x));
+    transition: transform 0.5s ease;
+}
+.card {
+    flex: 0 0 33.33%; /* Adjust the width based on the number of cards */
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transform: translateX(var(--card-translate-x));
+    transition: transform 0.5s ease;
+}
+
+.card div {
+    background-repeat: no-repeat;
+    height: 35vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.card h2{
+    font-family: 'roboto';
+    color: #fff;
+    font-weight: bold;
+}
+.card p {
+    color: #fff;
+    font-weight: 300px;
+  
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    background:rgb(180, 180, 180);
+    color: #d6c6c6;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: #555;
+}
+
+/* Navigation Menu Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Contact Form Styles */
+ .testimonials-container{
+    background-color: #288aa5;;
+    padding: 7%;
+    margin: 2%;
+    display: flex;
+
+ }
+ .icons{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+   width: 12vw;
+   margin-top: 1px;
+
+ }
+ .testmonials{
+
+   font-size: larger;
+   row-gap: 5px;
+ }
+ .testmonials1{
+    padding-left: 4%;
+ }
+ .testmonials2{
+    padding-left: 40%;
+ }
+
+ .contactus{
+    padding-left: 30%
+ }
